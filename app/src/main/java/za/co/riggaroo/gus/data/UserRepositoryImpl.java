@@ -1,10 +1,10 @@
-package za.co.riggaroo.gus.data.remote;
+package za.co.riggaroo.gus.data;
 
 import java.io.IOException;
 import java.util.List;
 
 import rx.Observable;
-import za.co.riggaroo.gus.data.UserRepository;
+import za.co.riggaroo.gus.data.remote.GithunUserRestService;
 import za.co.riggaroo.gus.data.remote.model.User;
 
 /**

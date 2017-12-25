@@ -18,6 +18,10 @@ public class UsersList {
     @Expose
     private List<User> items = new ArrayList<User>();
 
+    public UsersList(final List<User> githubUsers) {
+        this.items = githubUsers;
+    }
+
     public Integer getTotalCount() {
         return totalCount;
     }
